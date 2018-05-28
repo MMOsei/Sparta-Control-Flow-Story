@@ -19,35 +19,52 @@
 
 // STORY TIME
 
+//intro
+
+alert('Hey!! Welcome to my first ever game!');
+alert('Let\'s get to know eachother a little before we play...');
+var player = prompt('I\'m Mimi. What\'s your name?');
+alert('Hi ' + player + '! Nice to meet you!');
+var age = prompt('How old are you?');
+var difference = (parseInt(age) - 31);
+if (difference >= 1) {
+  alert(age + '...You are older than me!');
+} else if (difference < 0){
+  alert(age + '...You are younger than me');
+} else if (difference == 0){
+  alert(age + '!...We are the same age! Twins!!')
+}
+
+
 // Question 1 (alert, variable, prompt, if/elseif, strings)
-// alert('You are invited to my house for dinner and are the first to arrive.');
-//
-// var jollof = prompt("You are presented with a choice of a) Ghana jollof or b) Naija jollof. Which do you pick? (Type 'a' or 'b')");
-//
-// if (jollof == 'a') {
-//     alert('Ghana Jollof, yummy!!! So now your tummy is full and you are happy and satisfied');
-//   } else if (jollof == 'b') {
-//     alert('Naija jollof???? Ghana jollof is tastier so I served you that anyway...');
-//   }
+alert('You are invited to my house for dinner and are the first to arrive.');
+
+var jollof = prompt("You are presented with a choice of a) Ghana jollof or b) Naija jollof. Which do you pick? (Type 'a' or 'b')");
+
+if (jollof == 'a') {
+    alert('Ghana Jollof, yummy!!! So now your tummy is full and you are happy and satisfied');
+  } else if (jollof == 'b') {
+    alert('Naija jollof???? Ghana jollof is tastier so I served you that anyway...');
+  }
 
 //Question 2 (alert, variable, prompt, switch statements, strings)
-// alert('You must be so thirsty now that you are full and satisfied.');
-//
-// var drink = prompt('If you could drink anything you want, what would it be?').toUpperCase();
-//
-// switch (drink) {
-//   case 'SUPERMALT':
-//     alert('The fridge is full, help yourself. The opener is on the fridge. get me one too!')
-//     break;
-//   case 'WATER':
-//     alert('The fridge is full, help yourself.')
-//     break;
-//   case 'TEA':
-//     alert('Go and pop the kettle on. Mugs and teabags are in cabinet above it!')
-//     break;
-//   default:
-//     alert('We nuh \'ave dat! Go look in fridge and see if theres anything you like.')
-// }
+alert('You must be so thirsty now that you are full and satisfied.');
+
+var drink = prompt('If you could drink anything you want, what would it be?').toUpperCase();
+
+switch (drink) {
+  case 'SUPERMALT':
+    alert('The fridge is full, help yourself. The opener is on the fridge. get me one too!')
+    break;
+  case 'WATER':
+    alert('The fridge is full, help yourself.')
+    break;
+  case 'TEA':
+    alert('Go and pop the kettle on. Mugs and teabags are in cabinet above it!')
+    break;
+  default:
+    alert('We nuh \'ave dat! Go look in fridge and see if theres anything you like.')
+}
 
 //Question 3 ()
 
@@ -61,7 +78,8 @@ if (homework == "EGGS") {
 } else {
   alert('Why?!?!?! Did your teacher die early??? (SMH!)')
 }
+
 // Bridge
-alert("Now let's see how well you know me!");
+// alert("Now let's see how well you know me!");
 
 // Quiz
