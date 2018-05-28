@@ -20,37 +20,47 @@
 // STORY TIME
 
 // Question 1 (alert, variable, prompt, if/elseif, strings)
-alert('You are invited to my house for dinner and are the first to arrive.');
-
-var jollof = prompt("You are presented with a choice of a) Ghana jollof or b) Naija jollof. Which do you pick? (Type 'a' or 'b')");
-
-if (jollof == 'a') {
-    alert('Ghana Jollof, yummy!!! So now your tummy is full and you are happy and satisfied');
-  } else if (jollof == 'b') {
-    alert('Naija jollof???? Ghana jollof is tastier so I served you that anyway...');
-  }
+// alert('You are invited to my house for dinner and are the first to arrive.');
+//
+// var jollof = prompt("You are presented with a choice of a) Ghana jollof or b) Naija jollof. Which do you pick? (Type 'a' or 'b')");
+//
+// if (jollof == 'a') {
+//     alert('Ghana Jollof, yummy!!! So now your tummy is full and you are happy and satisfied');
+//   } else if (jollof == 'b') {
+//     alert('Naija jollof???? Ghana jollof is tastier so I served you that anyway...');
+//   }
 
 //Question 2 (alert, variable, prompt, switch statements, strings)
-alert('You must be so thirsty now that you are full and satisfied.');
+// alert('You must be so thirsty now that you are full and satisfied.');
+//
+// var drink = prompt('If you could drink anything you want, what would it be?').toUpperCase();
+//
+// switch (drink) {
+//   case 'SUPERMALT':
+//     alert('The fridge is full, help yourself. The opener is on the fridge. get me one too!')
+//     break;
+//   case 'WATER':
+//     alert('The fridge is full, help yourself.')
+//     break;
+//   case 'TEA':
+//     alert('Go and pop the kettle on. Mugs and teabags are in cabinet above it!')
+//     break;
+//   default:
+//     alert('We nuh \'ave dat! Go look in fridge and see if theres anything you like.')
+// }
 
-var drink = prompt('If you could drink anything you want, what would it be?').toUpperCase();
+//Question 3 ()
 
-switch (drink) {
-  case 'SUPERMALT':
-    alert('The fridge is full, help yourself. The opener is on the fridge. get me one too!')
-    break;
-  case 'WATER':
-    alert('The fridge is full, help yourself.')
-    break;
-  case 'TEA':
-    alert('Go and pop the kettle on. Mugs and teabags are in cabinet above it!')
-    break;
-  default:
-    alert('We nuh \'ave dat! Go look in fridge and see if theres anything you like.')
+alert('You go to the kitchen to find my mum helping my siblings do their maths homework.')
+alert('She starts to read the question out loud:')
+alert('You are sent to the shop to buy some items. ')
+alert('Chicken: £3.29, Potatoes: £1, Eggs: £1.20, Chocolate bar: £0.80, Milk: £1, Cheese: £0.79, Frankfurter: £2, Brioche rolls: £1.16')
+var homework = prompt('Question: What was the third item on the shopping list?').toUpperCase;
+if (homework == "EGGS") {
+  alert('Woohoo! I see you were paying attention!!');
+} else {
+  alert('Why?!?!?! Did your teacher die early??? (SMH!)')
 }
-
-
-
 // Bridge
 alert("Now let's see how well you know me!");
 
